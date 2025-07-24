@@ -12,9 +12,3 @@ class neuron:
 
     def active(self):
         return self.fuc(self.inputs)
-
-
-if __name__ == "__main__":
-    i = 2
-    neuron1 = neuron(i, act.sigmoid)
-    print(neuron1.output)
